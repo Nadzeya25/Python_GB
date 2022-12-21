@@ -1,7 +1,9 @@
-import os
-clear = lambda: os.system('cls')
-clear()
+# import os
+# clear = lambda: os.system('cls')
+# clear()
 
+# 2. Создать список, длины n, значения формируются по формуле 3k + 1,
+# где k принимает значения от 1 до n включительно.
 num_list = []
 n = int(input("Введите число "))
 for k in range(1,n+1):
