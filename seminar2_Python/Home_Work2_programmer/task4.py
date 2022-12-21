@@ -8,7 +8,7 @@ my_list = []
 for _ in range(n):
     my_list.append(randint(-n, n))
 print(my_list)
-if position1 < 1 or position1 > 5 or position2 < 1 or position2 > 5:
+if position1 < 1 or position1 > len(my_list) or position2 < 1 or position2 > len(my_list):
     print("позиции заданы некорректно")
 else:
     prod_position = my_list[position1 - 1] * my_list[position2 - 1]
