@@ -1,11 +1,11 @@
 #1. Напишите программу, которая принимает на вход два числа 
 #   и проверяет, является ли одно число квадратом другого. 
-# x = int(input("введите значение x: ")) 
-# y = int(input("введите значение y: ")) 
-# if x == y**2 or y == x**2: 
-#     print("yes") 
-# else: 
-#     print("no")   
+x = int(input("введите значение x: ")) 
+y = int(input("введите значение y: ")) 
+if x == y**2 or y == x**2: 
+    print("yes") 
+else: 
+    print("no")   
 # __________________________________________________________________вариант 2 
 # num1, num2 = int(input("введите первое число")), int(input("введите второе число")) 
 # if num1 ** 2 == num2 or num2 ** 2 == num1: 
@@ -13,9 +13,9 @@
 # else: 
 #     print("нет") 
 # _____________________________________________________________________вар 3 
-test1, test2 = int(input()), int(input()) 
-if test1 ** 2 == test2 or test2 ** 2 == test1 : 
-    print("all done") 
-else: 
-    print("none") 
+# test1, test2 = int(input()), int(input()) 
+# if test1 ** 2 == test2 or test2 ** 2 == test1 : 
+#     print("all done") 
+# else: 
+#     print("none") 
 
