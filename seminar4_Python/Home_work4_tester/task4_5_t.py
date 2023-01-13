@@ -19,12 +19,24 @@
 
 
 
+
+
+
+f1 = open("t_file1.txt", "r") 
+
+f1 = open("t_file1.txt", "r")
+my_str1 = f1.read()
+my_str1 = my_str1.replace(" = 0\n", "*x^0").replace("x ", "*x^1 ")
+print(my_str1)
+f1.close() 
+ 
+
+f2 = open("t_file2.txt", "r")
+my_str2 = f2.read()
+my_str2 = my_str2.replace(" = 0\n", "*x^0").replace("x ", "*x^1 ")
+print(my_str2)
+f2.close()  
+
 # сумма многочленов в предыдущей задаче, не доделала с файлами
-
-f = open("file1.txt", "r") 
-for line in f:
-        print(line.replace("\n", ""))
-
-f = open(r"C:\Users\lustr\OneDrive\Документы\Python_GB\seminar4_Python\home_work4_Progr\file2.txt", "r") 
-for line2 in f:
-        print(line2.replace("\n", ""))    
+# и так далее..
+   

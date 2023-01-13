@@ -97,5 +97,12 @@ def printEquation(equation: str):  # приводим первую и нулев
 my_finish_string = printEquation(my_string)
 print(my_finish_string)
 
-f = open(r"C:\Users\lustr\OneDrive\Документы\Python_GB\seminar4_Python\Home_work4_tester\file1.txt", "w") 
-f.write(my_finish_string*3) # записала строку с многочленом в файл
+# f = open("t_file3.txt", "a") 
+# f.write(my_finish_string) # записала строку с многочленом в файл3, 3 раза запустив функцию
+
+# f = open("t_file1.txt", "a") 
+# f.write(my_finish_string) # записала строку с многочленом в файл1
+
+f = open("t_file2.txt", "a") 
+f.write(my_finish_string) # записала строку с многочленом в файл2
+f.close() 

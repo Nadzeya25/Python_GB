@@ -79,7 +79,9 @@ def printEquation(equation: str):  # приводим первую и нулев
 my_finish_string = printEquation(my_string)
 print(my_finish_string)
 
+# f = open("file1.txt", "a") 
+# f.write(my_finish_string) # записала строку с многочленом в файл1 
 f = open("file2.txt", "a") 
-f.write(my_finish_string) # записала строку с многочленом в файл 
+f.write(my_finish_string) # записала строку с многочленом в файл2 
 
-
+f.close()
