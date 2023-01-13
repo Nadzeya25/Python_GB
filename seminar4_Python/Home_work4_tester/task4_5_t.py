@@ -16,3 +16,15 @@
 
 # out
 # The contents of the files do not match!
+
+
+
+# сумма многочленов в предыдущей задаче, не доделала с файлами
+
+f = open("file1.txt", "r") 
+for line in f:
+        print(line.replace("\n", ""))
+
+f = open(r"C:\Users\lustr\OneDrive\Документы\Python_GB\seminar4_Python\home_work4_Progr\file2.txt", "r") 
+for line2 in f:
+        print(line2.replace("\n", ""))    
