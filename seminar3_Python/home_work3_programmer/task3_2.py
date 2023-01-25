@@ -4,7 +4,7 @@
 # - [2, 3, 4, 5, 6] => [12, 15, 16];
 # - [2, 3, 5, 6] => [12, 15]
 print()
-my_list = [2, 3, 5, 6]
+my_list = [2, 3, 5, 10, 6]
 new_list =[]
 len_new_list = len(my_list)//2 + len(my_list)%2
 k = 1

@@ -18,5 +18,5 @@ def convert_int(num : int):
         my_list.insert(0, num % 2)
         num = num//2
     print(*my_list, sep="")            # звездочка распаковывает список, sep="" без пробелов
-
-convert_int(int (input("enter number: ")))
+num = int (input("enter number: "))
+convert_int(num)
